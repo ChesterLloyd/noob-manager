@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Form from '_components/Chat/Chat'
 
 export default function Home() {
   return (
@@ -7,6 +6,7 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="col">text ehre</div>
+          <Form />
         </div>
       </div>{' '}
     </section>
